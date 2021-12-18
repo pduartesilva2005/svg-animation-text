@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link rel="stylesheet" href="./styles.css" />
+
+    <title>SVG Text Animation</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <div class="container">
+      <svg viewBox="0 0 1000 400">
+        <text id="mytext" x="50%" y="50%" text-anchor="middle" fill="none">
+          YouTube
+        </text>
+        <use xlink:href="#mytext" class="copy copy1"></use>
+        <use xlink:href="#mytext" class="copy copy2"></use>
+        <use xlink:href="#mytext" class="copy copy3"></use>
+        <use xlink:href="#mytext" class="copy copy4"></use>
+        <use xlink:href="#mytext" class="copy copy5"></use>
+      </svg>
+    </div>
+  </body>
+</html>
